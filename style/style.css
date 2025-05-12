@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav ul li {
+  font-family: "Iansui", cursive;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  font-family: "Baloo 2", cursive;
+  font-family: "Iansui", cursive;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  margin: 1rem 0.5rem;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+body {
+  background-color: #272727;
+  color: white;
+  font-family: "Baloo 2", cursive;
+}
+body header nav {
+  box-shadow: 0 8px 6px -6px black;
+}
+body header nav ul {
+  display: flex;
+}
+body header nav ul li {
+  padding: 1rem;
+}
+body header nav ul li a {
+  font-size: 1.15rem;
+  transition: all 0.3s ease;
+}
+body header nav ul li a:hover {
+  color: yellow;
+}
+body marquee {
+  font-family: "Iansui", cursive;
+  font-size: 1.75rem;
+}
+body main .time {
+  font-family: "Iansui", cursive;
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem 0rem;
+}
+body main .visitor-counter {
+  font-family: "Iansui", cursive;
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem 0rem;
+}
+body main .info .time::before {
+  content: "\f017";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+body main .visitor-counter::before{
+  content: "\f06e";
+  font-family:"Font Awesome 6 Free";
+  font-weight: 900;
+}
+body main section.main-part {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+body main section.main-part .info {
+  gap: 2rem;
+}
+body main section.main-part h1 {
+  font-family: "Baloo 2", cursive;
+  font-family: "Iansui", cursive;
+  font-size: 3rem;
+}
+body main section.main-part p {
+  font-size: 1.15rem;
+}
+body main section.main-part div.all-inputs form input, body main section.main-part div.all-inputs form select {
+  font-family: "Baloo 2", "Iansui", cursive;
+  font-size: 1.05rem;
+  padding: 0.5rem;
+  border: 0.25px solid rgb(39, 39, 21);
+  margin: 0.35rem;
+}
+body main section.main-part div.all-inputs form input.class-credit {
+  width: 15%;
+}
+body main section.main-part div.all-inputs form button {
+  border: none;
+  cursor: pointer;
+  background-color: #272727;
+}
+body main section.main-part div.all-inputs form button i {
+  font-size: 1.25rem;
+  pointer-events: none;
+  color: white;
+}
+body main section.main-part button.plus-btn {
+  background-color: #272727;
+  border: none;
+  width: 2.5rem;
+  margin: 3rem 0rem;
+  cursor: pointer;
+}
+body main section.main-part button.plus-btn i {
+  font-size: 2.5rem;
+  color: white;
+}
+body main section.main-part div.result {
+  width: 200px;
+  height: 200px;
+  border: 3px solid red;
+  border-radius: 50%;
+  text-align: center;
+  animation-name: border_color;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+body main section.main-part div.result p {
+  margin-top: 15px;
+  font-family: "Baloo 2", cursive;
+  font-family: "Iansui", cursive;
+}
+body main section.main-part div.result h2#result-gpa {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.remove {
+  transform: scale(0);
+  transition: all 0.5s ease;
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes scaleDown {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0);
+  }
+}
+@keyframes border_color {
+  0% {
+    border-color: red;
+  }
+  33% {
+    border-color: limegreen;
+  }
+  66% {
+    border-color: yellow;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
