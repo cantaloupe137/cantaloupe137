@@ -21,14 +21,10 @@
 ### GitHub Stats 📊
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cantaloupe137&layout=compact&theme=vision-friendly-dark" alt="Top Langs" />
-  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cantaloupe137&layout=compact&theme=radical&cache_bust=1&count_private=true" alt="Top Langs" />
   <br/>
-
-  <img src="https://github-readme-stats.vercel.app/api?username=cantaloupe137&show_icons=true&theme=vision-friendly-dark" alt="GitHub Stats" />
-
+  <img src="https://github-readme-stats.vercel.app/api?username=cantaloupe137&show_icons=true&theme=radical&cache_bust=1&count_private=true" alt="GitHub Stats" />
   <br/>
-
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cantaloupe137&theme=dark" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cantaloupe137&theme=vision-friendly-dark" alt="GitHub Streak" />
 </div>
 
