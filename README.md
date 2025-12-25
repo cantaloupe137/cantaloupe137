@@ -23,7 +23,9 @@
 <div align="center">
   <img src="https://github-readme-stats-brown-two-90.vercel.app/api/top-langs?username=cantaloupe137&layout=compact&theme=radical&count_private=true" alt="Top Langs" />
   <br/>
+
   <img src="https://github-readme-stats-brown-two-90.vercel.app/api?username=cantaloupe137&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" />
   <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cantaloupe137&theme=vision-friendly-dark" alt="GitHub Streak" />
+
+  <img src="https://github-readme-streak-stats-pearl-omega.vercel.app/?user=cantaloupe137&theme=vision-friendly-dark" alt="GitHub Streak" />
 </div>
